@@ -10,16 +10,16 @@
 
 
 .front {
-	transition: 1s;
+	transition: 4s;
+position: absolute;
 
 }
 
 .back {
-position: absolute;
 
--webkit-transform: rotateY(-180deg);
+-webkit-transform: rotateY(180deg);
 -webkit-backface-visibility:hidden;
-transition: 1s;
+transition: 4s;
 
 }
 
